@@ -22,3 +22,9 @@ h2 {
     left: 0px;
     top: 140px;
 }
+h6{
+    position: relative;
+    font-size: 13px;
+    left: 800px;
+    top: -185px;
+}
