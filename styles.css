@@ -2,25 +2,50 @@
         /*background-image: url(https://wallpapercave.com/wp/wp5565660.jpg);
         background-size: cover;
         background-position: center bottom -150px; */
-        height: 100svh;  
+        height: 100vh;  
         position: relative;
-        max-width: 100%;
         overflow-x: hidden;
+        
+
 
     }
 
-    img {
+    .text {
+        position: absolute;
+        top: 500px;
+    }
+
+    .title {
+        text-align: center;
+        top: 280px;
+        padding-right: 115px;
+    }
+
+    .i1 {
+        position: absolute;
+        background-size: cover;
         object-fit: cover;
         width: 95%;
         height: auto;
         max-height: 300px;
         object-position: 50% 75%; /*hori verti*/
-        margin-left: 38px;
-
+        margin-left: 38px;  
         
-        
-
     }
+
+    .i2 {
+       position:relative;
+       max-width: 20%; /* using max width and height allows for scaling down witohut messing up the resolution*/
+       max-height: 20%;
+       border-radius: 60%; /* image is a circle (avatar)*/
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       top: 270px;
+
+       /* makes sure the image behaves like a block then we can move the margins (centering) */
+    }
+    
 
     h1, h2 {
         z-index:  1;
@@ -38,9 +63,11 @@
     }
 
     h6{
-        text-align: center;
         position: relative;
+        text-align: center;
         font-size: 13px;
-        color: black;
-        top: -368px;
+        color: #FBAF19;
+        opacity: 70%;
+        top: -510px;
+     
     }
