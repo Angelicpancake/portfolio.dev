@@ -10,14 +10,20 @@
 
     }
 
+    .ps {
+       
+        text-align: right;
+        
+    }
+
     .text {
         position: absolute;
-        top: 350px;
+        top: 300px;
     }
 
     .title {
         text-align: center;
-        top: 280px;
+        top: 260px;
         padding-right: 115px;
     }
     
