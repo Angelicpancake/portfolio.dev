@@ -5,17 +5,28 @@
         height: 100vh;  
         position: relative;
         overflow-x: hidden;
-        
-
+  
 
     }
 
-    .ps {
+    .career {
+        text-align: center;
+        padding-right: 105px;
+        top: -250px;
+    }
+
+    .careerP {
+        position:relative; 
+        top: -270px;
+    }
+
+    .html {
+        text-align: center;
+        position: relative;
+        top: -1150px;
        
-        text-align: right;
         
     }
-
     .text {
         position: absolute;
         top: 300px;
