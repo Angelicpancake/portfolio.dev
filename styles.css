@@ -1,160 +1,172 @@
-    .container {
-        /*background-image: url(https://wallpapercave.com/wp/wp5565660.jpg);
-        background-size: cover;
-        background-position: center bottom -150px; */
-        height: 100vh;  
-        position: relative;
-        overflow-x: hidden;
-  
+.container {
+    /*background-image: url(https://wallpapercave.com/wp/wp5565660.jpg);
+    background-size: cover;
+    background-position: center bottom -150px; */
+    height: 100vh;  
+    position: relative;
+    overflow-x: hidden;
 
-    }
 
-    .career {
-        text-align: center;
-        padding-right: 105px;
-        top: -250px;
-    }
+}
 
-    .careerP {
-        position:relative; 
-        top: -270px;
-    }
+.career {
+    text-align: center;
+    padding-right: 105px;
+    top: -250px;
+}
 
-    .html {
-        text-align: center;
-        position: relative;
-        top: -1150px;
-       
-        
-    }
-    .text {
-        position: absolute;
-        top: 300px;
-    }
+.careerP {
+    position:relative; 
+    top: -270px;
+}
 
-    .title {
-        text-align: center;
-        top: 260px;
-        padding-right: 115px;
-    }
+.html {
+    text-align: center;
+    position: relative;
+    top: -1150px;
+   
     
-    .name {
-        position: relative;
-        text-align: center;
-        top: -270px;
+}
+.text {
+    position: absolute;
+    top: 300px;
+}
 
-    }
+.title {
+    text-align: center;
+    top: 260px;
+    padding-right: 115px;
+}
 
-    .i1 {
-        position: absolute;
-        background-size: cover;
-        object-fit: cover;
-        width: 95%;
-        height: auto;
-        max-height: 300px;
-        object-position: 50% 75%; /*hori verti*/
-        margin-left: 38px;  
-        
-    }
+.name {
+    position: relative;
+    text-align: center;
+    top: -270px;
 
-    .i2 {
-       position:relative;
-       max-width: 20%; /* using max width and height allows for scaling down witohut messing up the resolution*/
-       max-height: 20%;
-       border-radius: 60%; /* image is a circle (avatar)*/
-       display: block;
-       margin-left: auto;
-       margin-right: auto;
-       top: 270px;
+}
 
-       /* makes sure the image behaves like a block then we can move the margins (centering) */
-    }
-    .i3 {
-        position: relative;
-        top: 120px;
-        margin-left: 1000px;
-
-        max-width: 8%;
-        max-height: 8%;
-
-        opacity: 90%;
-
-    }
+.i1 {
+    position: absolute;
+    background-size: cover;
+    object-fit: cover;
+    width: 95%;
+    height: auto;
+    max-height: 300px;
+    object-position: 50% 40%; /*hori verti*/
+    margin-left: 38px;  
     
-    .gmail {
-        border-radius: 60%;
-        position: relative;
-        top: -250px;
-        display: block;
-        margin-left: 650px;
-        max-width: 3%;
-        max-height: 3%;
-       
-    }
+}
 
-    .in {
-        border-radius: 60%;
-        position: relative;
-        top: -295px;
-        display: block;
-        margin-left: 720px;
-        max-width: 3%;
-        max-height: 3%;
-       
-    }
+.i2 {
+   position:relative;
+   max-width: 21%; /* using max width and height allows for scaling down witohut messing up the resolution*/
+   max-height: 21%;
+   border-radius: 50%; /* image is a circle (avatar)*/
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   top: 270px;
 
-    .github {
-        border-radius: 60%;
-        position: relative;
-        top: -340px;
-        display: block;
-        margin-left: 787px;
-        max-width: 3.2%;
-        max-height: 3.2%;
-       
-    }
+   /* makes sure the image behaves like a block then we can move the margins (centering) */
+}
+.i3 {
+    position: relative;
+    top: 120px;
+    margin-left: 1000px;
 
-    .gmail:hover, .in:hover, .github:hover {
+    max-width: 8%;
+    max-height: 8%;
 
-        border: 4px solid rgb(175, 219, 241);
-     
-    }
+    opacity: 90%;
 
-    
-    .box {
-        position: relative;
-        z-index: -1;
-        top: -100px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 1425px;
-        height: 500px;
+}
 
-        background-color: rgb(180,170,190);
-    }
-    
 
-    h1, h2 {
-        z-index:  1;
-    }
-    h1 {
-        font-size: 40px;
-        position: relative;
-  
-        left: 50px;
-    }
-    h2 {
-        position: relative;
-        font-size: 20px;
-        left: 50px;
-    }
 
-    h6{
-        position: relative;
-        text-align: center;
-        font-size: 13px;
-        color: #FBAF19;
-        opacity: 70%;
-        top: -360px;
-     
-    }
+.gmail {
+    border-radius: 60%;
+    position: relative;
+    top: -250px;
+    display: block;
+    margin-left: 650px;
+    max-width: 3%;
+    max-height: 3%;
+   
+}
+
+.in {
+    border-radius: 60%;
+    position: relative;
+    top: -295px;
+    display: block;
+    margin-left: 720px;
+    max-width: 3%;
+    max-height: 3%;
+   
+}
+
+.github {
+    border-radius: 60%;
+    position: relative;
+    top: -340px;
+    display: block;
+    margin-left: 787px;
+    max-width: 3.2%;
+    max-height: 3.2%;
+   
+}
+
+.gmail:hover, .in:hover, .github:hover {
+
+    border: 4px solid rgb(175, 219, 241);
+ 
+}
+
+
+.box {
+    position: relative;
+    z-index: -1;
+    top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1425px;
+    height: 500px;
+
+    background-color: rgb(180,170,190);
+}
+.box2 {
+    position: relative;
+    z-index: -1;
+    top: -700px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1425px;
+    height: 500px;
+
+    background-color: rgb(180,170,190);
+}
+
+
+h1, h2 {
+    z-index:  1;
+}
+h1 {
+    font-size: 40px;
+    position: relative;
+
+    left: 50px;
+}
+h2 {
+    position: relative;
+    font-size: 20px;
+    left: 50px;
+}
+
+h6{
+    position: relative;
+    text-align: center;
+    font-size: 13px;
+    color: #1b170f;
+    opacity: 100%;
+ 
+}
